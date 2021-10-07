@@ -1,4 +1,4 @@
-package com.java.designPattern.SingleResponsibility;
+package com.java.designPattern.singleResponsibility;
 
 /**
  * Created with IntelliJ IDEA.
