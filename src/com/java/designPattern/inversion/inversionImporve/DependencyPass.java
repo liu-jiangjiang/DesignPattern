@@ -4,7 +4,7 @@ package com.java.designPattern.inversion.inversionImporve;
  * Created with IntelliJ IDEA.
  * @Auther: liujiang
  * @Date: 2021/10/08/20:32
- * @Description:
+ * @Description: 依赖倒转原则
  * 1)接口传递
  * 2)构造方法传递
  * 3)setter方式传递
