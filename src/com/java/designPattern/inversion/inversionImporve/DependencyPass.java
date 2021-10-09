@@ -5,6 +5,14 @@ package com.java.designPattern.inversion.inversionImporve;
  * @Auther: liujiang
  * @Date: 2021/10/08/20:32
  * @Description: 依赖倒转原则
+ *
+ * 1)低层模块尽量都要有抽象类或接口，或者两者都有，程序稳定性更好.
+ *
+ * 2)变量的声明类型尽量是抽象类或接口,这样我们的变量引用和实际对象间，
+ * 就存在一个缓冲层，利于程序扩展和优化
+ *
+ * 3)继承时遵循里氏替换原则
+ *
  * 1)接口传递
  * 2)构造方法传递
  * 3)setter方式传递
