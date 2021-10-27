@@ -13,10 +13,19 @@ package com.java.singleton.test7;
 2) 这种方式是Effective Java作者Josh Bloch 提倡的方式
 3) 结论：推荐使用
  */
-public enum Singleton {
+public class Test{
+    public static void main(String[] args) {
+        Singleton singleton1 = Singleton.INSTANCE;
+        Singleton singleton2 = Singleton.INSTANCE;
+        System.out.println(singleton1 == singleton2);
+        System.out.println(singleton1.hashCode());
+        System.out.println(singleton2.hashCode());
+    }
+}
+enum Singleton {
     INSTANCE;
     public void method(){
-
+        System.out.println("say ok~");
     }
 
 }
