@@ -5,7 +5,7 @@ package com.java.singleton.test1;
  *
  * @Auther: liujiang
  * @Date: 2021/10/12/22:16
- * @Description: 单例模式之恶汉式（静态常量）
+ * @Description: 单例模式之饿汉式（静态常量）
  *
  * 优缺点说明：
  * 1) 优点：这种写法比较简单，就是在类装载的时候就完成实例化。避免了线程同
